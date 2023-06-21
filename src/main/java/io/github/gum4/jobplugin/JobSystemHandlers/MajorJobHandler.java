@@ -3,6 +3,7 @@ package io.github.gum4.jobplugin.JobSystemHandlers;
 import net.kyori.adventure.text.Component;
 import net.kyori.adventure.text.format.NamedTextColor;
 import net.kyori.adventure.text.format.TextDecoration;
+import net.kyori.adventure.title.Title;
 import org.bukkit.Bukkit;
 import org.bukkit.Material;
 import org.bukkit.entity.Player;
@@ -58,6 +59,9 @@ public class MajorJobHandler {
         }
         event.getInventory().close();
         event.setCancelled(true);
+        afterSelectMajorJob(player);
     }
-
+    private void afterSelectMajorJob(Player player) {
+        Title title = Title.title(Component.text("환영합니다!"), Component.empty());
+    }
 }
