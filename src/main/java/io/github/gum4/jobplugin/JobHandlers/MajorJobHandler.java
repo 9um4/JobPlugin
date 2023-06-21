@@ -25,4 +25,8 @@ public class MajorJobHandler {
             }
         }
     }
+    // open major job selection UI
+    public static void openSelectMajorJobUI(Player player){
+        player.openInventory(selectMajorJobUI);
+    }
 }
