@@ -1,4 +1,4 @@
-package io.github.gum4.jobplugin.JobSystemHandlers;
+package io.github.gum4.jobplugin.jobsystemhandlers;
 
 import net.kyori.adventure.text.Component;
 import net.kyori.adventure.text.format.NamedTextColor;
