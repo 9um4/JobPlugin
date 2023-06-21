@@ -1,4 +1,4 @@
-package io.github.gum4.jobplugin.jobsystemhandlers;
+package io.github.gum4.jobplugin.jobhandlers;
 
 import io.github.gum4.jobplugin.enums.MajorJob;
 import net.kyori.adventure.text.Component;
