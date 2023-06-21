@@ -69,4 +69,16 @@ public class MajorJobHandler {
     private void afterSelectMajorJob(Player player) {
         Title title = Title.title(Component.text("환영합니다!"), Component.empty());
     }
+    public static boolean hasMajorJob(UUID uuid){
+        return majorJobMap.containsKey(uuid);
+    }
+    public static boolean hasMajorJob(Player player) {
+        return hasMajorJob(player.getUniqueId());
+    }
+    public static MajorJob getMajorJob(UUID uuid){
+        return majorJobMap.get(uuid);
+    }
+    public static MajorJob getMajorJob(Player player){
+        return getMajorJob(player.getUniqueId());
+    }
 }
