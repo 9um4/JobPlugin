@@ -1,0 +1,7 @@
+name: JobPlugin
+version: '${version}'
+main: io.github.gum4.jobplugin.JobInitializer
+api-version: '1.20'
+prefix: Job
+authors: [9um4]
+description: Rpg-styled Job for minecraft
