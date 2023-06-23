@@ -1,7 +1,7 @@
-name: JobPlugin
+name: Professions
 version: '${version}'
-main: io.github.gum4.jobplugin.JobInitializer
+main: io.github.gum4.professions.Professions
 api-version: '1.20'
-prefix: Job
+prefix: Professions
 authors: [9um4]
-description: Rpg-styled Job for minecraft
+description: Rpg-styled professions for minecraft paper api
