@@ -2,7 +2,7 @@ package io.github.gum4.professions.listeners;
 
 import io.github.gum4.professions.enums.MajorProfession;
 import io.github.gum4.professions.enums.UI;
-import io.github.gum4.professions.events.uis.SelectMajorProfessionUIOpenEvent;
+import io.github.gum4.professions.events.SelectMajorProfessionUIOpenEvent;
 import io.github.gum4.professions.handlers.MajorProfessionHandler;
 import io.github.gum4.professions.handlers.UIHandler;
 import net.kyori.adventure.text.Component;

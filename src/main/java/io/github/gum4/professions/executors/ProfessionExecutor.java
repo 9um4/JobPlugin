@@ -1,6 +1,6 @@
 package io.github.gum4.professions.executors;
 
-import io.github.gum4.professions.events.uis.SelectMajorProfessionUIOpenEvent;
+import io.github.gum4.professions.events.SelectMajorProfessionUIOpenEvent;
 import io.github.gum4.professions.handlers.MajorProfessionHandler;
 import io.github.gum4.professions.handlers.UIHandler;
 import net.kyori.adventure.text.Component;

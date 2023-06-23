@@ -6,6 +6,7 @@ public interface AbstractSkill {
     int maxCoolTick = 100;
     int currentCoolTick = 0;
     int mpCost = 0;
+    int activateDelayTick = 60;
 
     void initSkill(Player player);
     void useSkill(Player player);
