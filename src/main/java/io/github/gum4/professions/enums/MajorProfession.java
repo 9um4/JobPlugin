@@ -6,17 +6,15 @@ import io.github.gum4.professions.professions.Magician;
 import io.github.gum4.professions.professions.Warrior;
 
 public enum MajorProfession {
-    WARRIOR(new Warrior()),
-    ARCHER(new Archer()),
-    MAGICIAN(new Magician());
+    WARRIOR(new Warrior(), "전사"),
+    ARCHER(new Archer(), "궁수"),
+    MAGICIAN(new Magician(), "마법사");
 
-    private final AbstractMajorProfession profession;
+    public final AbstractMajorProfession profession;
+    public final String name;
 
-    MajorProfession(AbstractMajorProfession profession){
+    MajorProfession(AbstractMajorProfession profession, String name){
         this.profession = profession;
-    }
-
-    public AbstractMajorProfession getProfession(){
-        return this.profession;
+        this.name = name;
     }
 }

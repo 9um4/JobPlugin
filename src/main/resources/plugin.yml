@@ -5,3 +5,10 @@ api-version: '1.20'
 prefix: Professions
 authors: [9um4]
 description: Rpg-styled professions for minecraft paper api
+commands:
+  profession:
+    aliases:
+      - class
+      - job
+    description: About Rpg-styled professions
+    usage: /profession <set|get>

@@ -4,6 +4,7 @@ import io.github.gum4.professions.enums.MajorProfession;
 import org.bukkit.entity.Player;
 
 import java.util.HashMap;
+import java.util.HashSet;
 import java.util.UUID;
 
 public class MajorProfessionHandler{

@@ -17,7 +17,7 @@ public class UIHandler {
 
     private static final Component selectMajorProfessionUIName = Component.text("[", NamedTextColor.WHITE)
             .append(Component.text("LIN", NamedTextColor.AQUA))
-            .append(Component.text("] ë©”ì¸ ì§ì—…ì„ ì„ íƒí•´ ì£¼ì„¸ìš”.", NamedTextColor.WHITE))
+            .append(Component.text("] ¸ŞÀÎ Á÷¾÷À» ¼±ÅÃ.", NamedTextColor.WHITE))
             .decoration(TextDecoration.ITALIC, false);
     public static final Inventory selectMajorProfessionUI = Bukkit.createInventory(null, 27, selectMajorProfessionUIName);
     private static final HashMap<Player, UI> currentUIMap = new HashMap<>();

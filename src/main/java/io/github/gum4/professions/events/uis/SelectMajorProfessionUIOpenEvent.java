@@ -1,4 +1,4 @@
-package io.github.gum4.professions.events;
+package io.github.gum4.professions.events.uis;
 
 import org.bukkit.entity.Player;
 import org.bukkit.event.Event;
@@ -15,6 +15,9 @@ public class SelectMajorProfessionUIOpenEvent extends Event {
 
     @Override
     public @NotNull HandlerList getHandlers() {
+        return handlers;
+    }
+    public static HandlerList getHandlerList() {
         return handlers;
     }
 }

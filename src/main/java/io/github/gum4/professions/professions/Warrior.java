@@ -3,6 +3,7 @@ package io.github.gum4.professions.professions;
 import org.bukkit.entity.Player;
 
 public class Warrior implements AbstractMajorProfession {
+
     @Override
     public void initSkill(Player player, int index) {
 

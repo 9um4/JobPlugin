@@ -1,6 +1,7 @@
 package io.github.gum4.professions.listeners;
 
-import io.github.gum4.professions.events.SelectMajorProfessionUIOpenEvent;
+import io.github.gum4.professions.enums.UI;
+import io.github.gum4.professions.events.uis.SelectMajorProfessionUIOpenEvent;
 import io.github.gum4.professions.handlers.MajorProfessionHandler;
 import io.github.gum4.professions.handlers.UIHandler;
 import org.bukkit.Bukkit;
@@ -17,6 +18,7 @@ public class JoinListener implements Listener {
         Player player = event.getPlayer();
         UUID uuid = player.getUniqueId();
         if (!MajorProfessionHandler.hasMajorProfession(uuid)){
+            UIHandler.setCurrentUI(player, UI.SELECT_MAJOR_PROFESSION);
             player.openInventory(UIHandler.selectMajorProfessionUI);
             Bukkit.getServer().getPluginManager().callEvent(new SelectMajorProfessionUIOpenEvent(player));
         }
